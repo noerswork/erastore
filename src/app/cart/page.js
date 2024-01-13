@@ -1,5 +1,10 @@
+import ProductCart from "@/components/ProductCart"
+
 export default function Cart() {
     return(
-        <h1>This is Cart Page</h1>
+        <div className="product-cart-page">
+            <div class="text-stone-900 text-[32px] font-bold">My Shopping Cart</div>
+            <ProductCart />
+        </div>
     )
 }
